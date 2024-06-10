@@ -1,9 +1,22 @@
 <script setup lang="ts">
-// import TheWelcome from '../components/TheWelcome.vue'
+import CategorySet from '@/components/CategorySet.vue'
 </script>
 
 <template>
-  <main>
-    <!-- <TheWelcome /> -->
-  </main>
+  <div class="about">
+    <h1>This is the main asdasdadadasasasd</h1>
+  </div>
+  <div>
+    <CategorySet />
+  </div>
 </template>
+
+<style>
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+  }
+}
+</style>
