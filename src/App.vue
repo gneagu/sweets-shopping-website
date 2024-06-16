@@ -4,6 +4,9 @@
       <PageHeader />
     </div>
     <div class="container">
+      <SiteMap />
+    </div>
+    <div class="container">
       <RouterView />
     </div>
   </div>
@@ -12,6 +15,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import PageHeader from './components/PageHeader.vue'
+import SiteMap from './components/SiteMap.vue'
 </script>
 
 <style scoped>

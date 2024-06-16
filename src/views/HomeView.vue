@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import CategorySet from '@/components/CategorySet.vue'
+import InTextBanner from '@/components/InTextBanner.vue'
 </script>
 
 <template>
-  <div class="about">
-    <h1>This is the main asdasdadadasasasd</h1>
-  </div>
-  <div>
-    <CategorySet />
+  <div class="home">
+    <div class="about">
+      <h1>This is the main asdasdadadasasasd</h1>
+    </div>
+    <div>
+      <CategorySet />
+    </div>
+    <div>
+      <InTextBanner />
+    </div>
   </div>
 </template>
 
@@ -17,6 +23,10 @@ import CategorySet from '@/components/CategorySet.vue'
     min-height: 100px;
     display: flex;
     align-items: center;
+  }
+
+  .home {
+    background-color: rgba(253, 242, 249, 0.897);
   }
 }
 </style>

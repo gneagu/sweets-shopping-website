@@ -2,40 +2,22 @@
   <div>
     <header>
       <div>
-        <nav>
-          test
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-          <RouterLink to="/prajituri">About</RouterLink>
-          <RouterLink to="/fursecuri">About</RouterLink>
-          <RouterLink to="/torturi">About</RouterLink>
-          <RouterLink to="/macaroons">About</RouterLink>
-        </nav>
+        <div class="test">
+          <b>Page Header</b>
+          <b>Contact Icon</b>
+        </div>
       </div>
     </header>
   </div>
 </template>
 
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-</script>
+<script setup lang="ts"></script>
 
 <style scoped>
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
+.test {
+  justify-content: space-between;
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-gap: 1rem; */
 }
 </style>
