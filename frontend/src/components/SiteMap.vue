@@ -4,11 +4,11 @@
       <div>
         <nav>
           <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/prajituri">Prajituri</RouterLink>
           <RouterLink to="/fursecuri">Fursecuri</RouterLink>
           <RouterLink to="/torturi">Torturi</RouterLink>
           <RouterLink to="/macaroons">Macaroons</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
         </nav>
       </div>
     </header>

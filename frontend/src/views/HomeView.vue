@@ -8,7 +8,7 @@ import InTextBanner from '@/components/InTextBanner.vue'
     <div class="about">
       <h1>This is the main asdasdadadasasasd</h1>
     </div>
-    <div>
+    <div class="status">
       <CategorySet />
     </div>
     <div>
@@ -26,7 +26,12 @@ import InTextBanner from '@/components/InTextBanner.vue'
   }
 
   .home {
-    background-color: rgba(253, 242, 249, 0.897);
+    /* background-color: rgba(253, 242, 249, 0.897); */
+    background-color: #f7f7f7;
+  }
+
+  .status {
+    padding-bottom: 1rem;
   }
 }
 </style>

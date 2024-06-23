@@ -22,6 +22,7 @@ import SiteMap from './components/SiteMap.vue'
 .main {
   width: 100%;
   justify-content: center;
+  
 }
 
 header {
@@ -33,6 +34,7 @@ header {
 @media (min-width: 1200px) {
   .container {
     width: 1200px;
+    
   }
 }
 </style>

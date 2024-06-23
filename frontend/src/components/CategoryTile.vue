@@ -1,15 +1,22 @@
 <template>
   <div class="tile">
     <div class="image">
-      <img src="../assets/260px.jpg" alt="alternatetext" />
+      <img :src="'../assets/' + imageSource + ''" alt="alternatetext" />
     </div>
     <div class="title">
-      <h1>Prajituri</h1>
+      <h1>{{titleText}}</h1>
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const props = defineProps(['titleText', 'imageSource'])
+
+image:
+
+console.log(props.titleText)
+console.log(props.imageSource)
+</script>
 
 <style scoped>
 .tile {
